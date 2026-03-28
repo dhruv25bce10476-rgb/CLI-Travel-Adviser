@@ -1,10 +1,10 @@
-# ✈ DW Travel Adviser — CLI v2.0
+#  DW Travel Adviser — CLI 
 
-A Python terminal app to plan international trips from India. Compare destinations, get live-simulated flight prices across fare classes, and find trips within your budget.
+This is a Python terminal app to plan international trips from India. Compare destinations, get live-simulated flight prices across fare classes, and find trips within your budget.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 travel_adviser/
@@ -19,7 +19,7 @@ travel_adviser/
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 - Python 3.7+
 - pandas
@@ -31,7 +31,7 @@ pip install pandas
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Place all files in the same folder
 2. Open terminal in that folder
@@ -43,7 +43,7 @@ python main.py
 
 ---
 
-## 🔐 Auth System
+## Auth System
 
 - **Sign Up** — create an account with email, name, username & password
 - **Login** — passwords are SHA-256 hashed, 3 attempts allowed
@@ -51,7 +51,7 @@ python main.py
 
 ---
 
-## 🗺️ Features
+## Features
 
 ### 1. Plan a Trip
 - Browse 20 international destinations with safety ratings
@@ -66,11 +66,11 @@ python main.py
 
 - Enter number of rooms & nights
 - Get a full cost breakdown:
-  - ✈ Flight total
-  - 🏨 Hotel total
-  - 🎒 Miscellaneous expenses
-  - 📄 Visa cost
-  - 💰 Grand total + per person cost
+  - Flight total
+  - Hotel total
+  - Miscellaneous expenses
+  - Visa cost
+  - Grand total + per person cost
   - Budget tier (Budget / Mid-Range / Premium)
   - Safety advisory
 
@@ -82,13 +82,13 @@ python main.py
 
 ---
 
-## 🌍 Destinations Available
+## Destinations Available
 
 Japan, France, USA, UAE, Thailand, Australia, Germany, Singapore, Canada, Italy, Spain, Netherlands, South Korea, Turkey, Malaysia, Indonesia, UK, Switzerland, New Zealand, Vietnam
 
 ---
 
-## 📝 Notes
+## Notes
 
 - Flight prices simulate hourly market fluctuation (±8%) — refresh each session for updated rates
 - Flight data is **not** stored in the CSV; it lives in `flight_rates.py` for easy updates
