@@ -7,7 +7,7 @@ This is a Python terminal app to plan international trips from India. Compare de
 ## Project Structure
 
 ```
-travel_adviser/
+DW Travel Adviser — CLI/
 │
 ├── main.py            # Entry point — run this
 ├── auth.py            # Login & signup system
