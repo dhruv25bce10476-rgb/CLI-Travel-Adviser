@@ -1,6 +1,6 @@
 #  DW Travel Adviser — CLI 
 
-This is a Python terminal app to plan international trips from India. Compare destinations, get live-simulated flight prices across fare classes, and find trips within your budget.
+This is a Python terminal app that helps to plan international trips from India. Compare destinations, get live-simulated flight prices across fare classes, and find trips within your budget.
 
 ---
 
